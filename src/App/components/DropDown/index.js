@@ -17,7 +17,7 @@ export default function DropDawn() {
   return (
     <div>
       <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Menu
+      <i class="material-icons">menu</i>
       </Button>
       <Menu
         id="simple-menu"

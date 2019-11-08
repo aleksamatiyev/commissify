@@ -7,18 +7,7 @@ const ChartInfoCard = ({ pageState }) => {
 	const { mockData, selectedID, selectedChart, isTeamSelected, teamData, selectedTeamMemberID } = pageState.state
 	const personData = get(mockData, selectedID, {})
 	const teamDataObj = get(teamData, [selectedID, "q2_2019"], {})
-	const chartData = isTeamSelected && !selectedTeamMemberID ? teamDataObj : personData
-
-			// "Demo_Points": 14,
-            // "Demo Quota": 17.0,
-			// "Bonus": 975.0
-
-	
-			// "Total_Points": 99.5,
-			// "Total_Quota": 113.0,
-			// "Total_Bonus_Earned": 4651.0,
-	
-	
+	const chartData = isTeamSelected && !selectedTeamMemberID ? teamDataObj : personData	
 	const goalPoints = get(chartData, [selectedChart, 'Demo_Points'], '')
 	const ramping = get(chartData, [selectedChart, 'Ramping Demo Quota (%)'], '')
 	const goalQuota = get(chartData, [selectedChart, 'Demo Quota'], '')

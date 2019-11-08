@@ -18,9 +18,7 @@ const AvatarIcon = ({ src }) => {
   const classes = useStyles();
 
   return (
-    // <Grid container alignItems="center">
-      <Avatar alt="Remy Sharp" src={src} className={classes.bigAvatar} />
-    // </Grid>
+    <Avatar alt="Remy Sharp" src={src} className={classes.bigAvatar} />
   );
 }
 

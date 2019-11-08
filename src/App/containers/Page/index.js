@@ -1,11 +1,24 @@
 import React from "react";
 import { Subscribe } from 'unstated'
 import { PageContainer } from '../../containers'
-import { HeadingCard, DropDown, Dashboard } from '../../components'
+import { HeadingCard, DropDown, Dashboard, PeopleList } from '../../components'
 import { Link } from "react-router-dom";
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(theme => ({
+  button: {
+    margin: theme.spacing(1),
+  },
+  input: {
+    display: 'none',
+  },
+}));
+
 
 const Page = ({ match: { params: { id } }, isTeam, pageState, ...props }) => {
-	const { mockData, teamData, selectedID, isTeamSelected, selectedTeamMemberID } = pageState.state
+	const { mockData, teamData, selectedID, isTeamSelected, selectedTeamMemberID, isSimulatingMode } = pageState.state
+	const classes = useStyles();
 	let cardId = parseInt(id, 10)
 	// render first person if no id (set specific for prople to demo)
 	if (!cardId) {
@@ -34,14 +47,14 @@ const Page = ({ match: { params: { id } }, isTeam, pageState, ...props }) => {
 			<div className="navigation">
 				{isTeam ? (
 					<Link to="/5114">
-						<button type="button">
+						<Button variant="contained" className={classes.button}>
 							People
-						</button>
+						</Button>
 					</Link>) : (
 						<Link to="/team/1234">
-							<button type="button">
+							<Button variant="contained" className={classes.button}>
 								Team
-						</button>
+							</Button>
 						</Link>
 					)
 				}
@@ -51,14 +64,19 @@ const Page = ({ match: { params: { id } }, isTeam, pageState, ...props }) => {
 
 	return (
 		<div className="App">
-			<Navigation />			
 			<div className="top">
-				<HeadingCard {...props} />
+				{selectedID && <HeadingCard {...props} />}
 				<DropDown />
 			</div>
 			<section>
 				<Dashboard />
 			</section>
+			<div className="group-navigation">
+				{!selectedTeamMemberID && !isTeamSelected && (
+					<PeopleList />
+				)}
+				<Navigation />		
+			</div>
 		</div>
 	);
 }
