@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Page = ({ match: { params: { id } }, isTeam, pageState, ...props }) => {
 	const { mockData, teamData, selectedID, isTeamSelected, selectedTeamMemberID } = pageState.state
 	let cardId = parseInt(id, 10)
-	// render first person if no id
+	// render first person if no id (set specific for prople to demo)
 	if (!cardId) {
-		cardId = isTeam ? Object.keys(teamData)[0] : Object.keys(mockData)[0]
+		cardId = isTeam ? Object.keys(teamData)[0] : '5114'
 		const path = isTeam ? `/team/${cardId}` : cardId
 		props.history.push(path)
 	}

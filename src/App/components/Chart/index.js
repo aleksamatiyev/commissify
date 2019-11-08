@@ -92,7 +92,7 @@ const ChartComponent = ({ pageState }) => {
 	return (
 		<div className="chart">
 			<div className="download-icon" onClick={downloadIconClick}>
-				<i class="material-icons">cloud_download</i>
+				<i className="material-icons">cloud_download</i>
 			</div>
 			<Bar
 				data={data}
