@@ -1,0 +1,194 @@
+{
+    "2220": {
+        "Name": "Cheryl Sheridan",
+        "Current_Role": "SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "04/15/2019"
+    },
+    "3048": {
+        "Name": "David Knight",
+        "Current_Role": "SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "11/12/2018"
+    },
+    "294": {
+        "Name": "Judy Worthington",
+        "Current_Role": "Senior SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "06/18/2018"
+    },
+    "3074": {
+        "Name": "Angela Hawkins",
+        "Current_Role": "SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "11/12/2018"
+    },
+    "3232": {
+        "Name": "Vincent Davis",
+        "Current_Role": "SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "04/01/2019"
+    },
+    "4325": {
+        "Name": "Peggy Thomas",
+        "Current_Role": "Senior SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "01/07/2019"
+    },
+    "3045": {
+        "Name": "Stephanie Wade",
+        "Current_Role": "Senior Inbound SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "11/12/2018"
+    },
+    "2341": {
+        "Name": "Mary Gary",
+        "Current_Role": "SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "03/04/2019"
+    },
+    "4323": {
+        "Name": "Tiesha Paquette",
+        "Current_Role": "Senior SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "01/07/2019"
+    },
+    "602": {
+        "Name": "Randy Monro",
+        "Current_Role": "Account Executive III",
+        "Manager": "Heather Collins",
+        "Hire_Date": "01/02/2018"
+    },
+    "5564": {
+        "Name": "Miriam Ross",
+        "Current_Role": "Customer Success Manager III",
+        "Manager": "Michael Clopton",
+        "Hire_Date": "05/21/2018"
+    },
+    "263": {
+        "Name": "Peggy Thomas",
+        "Current_Role": "Customer Support Associate",
+        "Manager": "Paul Bassetti",
+        "Hire_Date": "06/19/2017"
+    },
+    "280": {
+        "Name": "Jerry Davis",
+        "Current_Role": "Senior SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "06/18/2018"
+    },
+    "2221": {
+        "Name": "Charles Edington",
+        "Current_Role": "SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "04/15/2019"
+    },
+    "300": {
+        "Name": "Christiana Jones",
+        "Current_Role": "Account Executive III",
+        "Manager": "Pamela Carter",
+        "Hire_Date": "10/16/2017"
+    },
+    "596": {
+        "Name": "Maria Blevins",
+        "Current_Role": "Account Executive III",
+        "Manager": "Pamela Carter",
+        "Hire_Date": "12/19/2017"
+    },
+    "3462": {
+        "Name": "Robert Wilson",
+        "Current_Role": "SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "03/18/2019"
+    },
+    "5555": {
+        "Name": "Elizabeth Tinajero",
+        "Current_Role": "Inbound SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "03/18/2019"
+    },
+    "5654": {
+        "Name": "Charles Cannon",
+        "Current_Role": "Senior SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "08/06/2018"
+    },
+    "5045": {
+        "Name": "Jesse Grant",
+        "Current_Role": "Senior SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "10/01/2018"
+    },
+    "4324": {
+        "Name": "Beth French",
+        "Current_Role": "SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "01/07/2019"
+    },
+    "4334": {
+        "Name": "Robert Morales",
+        "Current_Role": "SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "04/01/2019"
+    },
+    "558": {
+        "Name": "Gary Pulliam",
+        "Current_Role": "Account Executive III",
+        "Manager": "Heather Collins",
+        "Hire_Date": "12/04/2017"
+    },
+    "3002": {
+        "Name": "Derek James",
+        "Current_Role": "Senior SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "10/15/2018"
+    },
+    "3004": {
+        "Name": "Lois Dean",
+        "Current_Role": "Inbound SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "10/15/2018"
+    },
+    "5111": {
+        "Name": "Tiesha Paquette",
+        "Current_Role": "Senior SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "07/02/2018"
+    },
+    "3001": {
+        "Name": "Leon Morgan",
+        "Current_Role": "Senior SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "10/15/2018"
+    },
+    "5115": {
+        "Name": "Mary Gary",
+        "Current_Role": "Senior SDR",
+        "Manager": "Marvin Timmons",
+        "Hire_Date": "07/02/2018"
+    },
+    "5485": {
+        "Name": "Marty Higman",
+        "Current_Role": "Senior SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "08/06/2018"
+    },
+    "5114": {
+        "Name": "Russel Jordan",
+        "Current_Role": "Senior Coordinator, Growth Collective",
+        "Manager": "Carol Eddy",
+        "Hire_Date": "07/02/2018"
+    },
+    "5001": {
+        "Name": "Ian Templeton",
+        "Current_Role": "Senior SDR",
+        "Manager": "Ethel Coleman",
+        "Hire_Date": "07/02/2018"
+    },
+    "5432": {
+        "Name": "Tiesha Paquette",
+        "Current_Role": "Senior SDR",
+        "Manager": "Charles Cannon",
+        "Hire_Date": "03/04/2019"
+    }
+}

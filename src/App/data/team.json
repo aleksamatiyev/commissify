@@ -1,0 +1,168 @@
+{
+    "1234": {
+        "Team_Name": "TeamPerfect",
+        "Team_Member": ["2221","3045","3004","4323","294","5485","5001","5114","3462"],
+        "Manager": "Ethel Coleman",
+        "q2_2019": {
+            "2019-04-30": {
+                "Total_Points": 99.5,
+                "Total_Quota": 113.0,
+                "Total_Bonus_Earned": 4651.0,
+                "Individual": {
+                    "3462": {
+                        "Demo_Points": 0,
+                        "Demo Quota": 0.0,
+                        "Title": "SDR",
+                        "Bonus": 0.0
+                    },
+                    "294": {
+                        "Demo_Points": 15,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 867.0
+                    },
+                    "5485": {
+                        "Demo_Points": 16,
+                        "Demo Quota": 15.0,
+                        "Title": "SDR",
+                        "Bonus": 750.0
+                    },
+                    "5114": {
+                        "Demo_Points": 15,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 867.0
+                    },
+                    "4323": {
+                        "Demo_Points": 13,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 667.0
+                    },
+                    "5001": {
+                        "Demo_Points": 12.5,
+                        "Demo Quota": 17.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 0.0
+                    },
+                    "3004": {
+                        "Demo_Points": 14,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 750.0
+                    },
+                    "3045": {
+                        "Demo_Points": 14,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 750.0
+                    }
+                }
+            },
+            "2019-05-31": {
+                "Total_Points": 89,
+                "Total_Quota": 104.0,
+                "Total_Bonus_Earned": 5008.0,
+                "Individual": {
+                    "3462": {
+                        "Demo_Points": 3,
+                        "Demo Quota": 8.0,
+                        "Title": "SDR",
+                        "Bonus": 150.0
+                    },
+                    "294": {
+                        "Demo_Points": 16,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 975.0
+                    },
+                    "5485": {
+                        "Demo_Points": 15,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 867.0
+                    },
+                    "5114": {
+                        "Demo_Points": 13,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 758.0
+                    },
+                    "4323": {
+                        "Demo_Points": 13,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 667.0
+                    },
+                    "5001": {
+                        "Demo_Points": 14,
+                        "Demo Quota": 17.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 758.0
+                    },
+                    "3045": {
+                        "Demo_Points": 15,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 833.0
+                    }
+                }
+            },
+            "2019-06-30": {
+                "Total_Points": 118,
+                "Total_Quota": 115.0,
+                "Total_Bonus_Earned": 6530.0,
+                "Individual": {
+                    "3462": {
+                        "Demo_Points": 7,
+                        "Demo Quota": 11.0,
+                        "Title": "SDR",
+                        "Bonus": 0.0
+                    },
+                    "294": {
+                        "Demo_Points": 16,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 975.0
+                    },
+                    "2221": {
+                        "Demo_Points": 8,
+                        "Demo Quota": 8.0,
+                        "Title": "SDR",
+                        "Bonus": 400.0
+                    },
+                    "5485": {
+                        "Demo_Points": 15,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 867.0
+                    },
+                    "5114": {
+                        "Demo_Points": 16,
+                        "Demo Quota": 15.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 975.0
+                    },
+                    "4323": {
+                        "Demo_Points": 20,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 1167.0
+                    },
+                    "5001": {
+                        "Demo_Points": 19,
+                        "Demo Quota": 17.0,
+                        "Title": "Senior SDR",
+                        "Bonus": 1213.0
+                    },
+                    "3045": {
+                        "Demo_Points": 17,
+                        "Demo Quota": 17.0,
+                        "Title": "Inbound SDR",
+                        "Bonus": 933.0
+                    }
+                }
+            }
+        }
+    }
+}
