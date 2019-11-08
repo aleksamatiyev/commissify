@@ -9,9 +9,9 @@ const App = () => (
   <Provider>
     <Router history={history}>
       <Switch>
-        <Route exact path="/team" render={(props) => <Page {...props} isTeam={true} /> } />
+        {/* <Route exact path="/team" render={(props) => <Page {...props} isTeam={true} /> } /> */}
         <Route exact path="/team/:id" render={(props) => <Page {...props} isTeam={true} /> } />
-        <Route exact path="/" component={Page} />
+        {/* <Route exact path="/" component={Page} /> */}
         <Route exact path="/:id" component={Page} />
       </Switch>
     </Router>
