@@ -1,6 +1,7 @@
 import React from "react";
 import { Subscribe } from 'unstated'
 import { get } from 'lodash';
+import moment from 'moment';
 import { PageContainer } from '../../containers'
 
 const ChartInfoCard = ({ pageState }) => {
@@ -17,7 +18,7 @@ const ChartInfoCard = ({ pageState }) => {
 		<div className="chart-info-card">
 			{selectedChart && (
 				<>
-					<h1>{selectedChart}</h1>
+					<h1>{moment(selectedChart).format('MMMM YYYY')}</h1>
 					<table>
 						<tbody>
 							<tr>
