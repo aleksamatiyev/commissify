@@ -25,7 +25,7 @@ const ChartInfoCard = ({ pageState }) => {
 	const bonus = get(chartData, [selectedChart, 'Bonus'], '')
 
 	return (
-		<div className="cgart-info-card">
+		<div className="chart-info-card">
 			{selectedChart && (
 				<>
 					<h1>{selectedChart}</h1>

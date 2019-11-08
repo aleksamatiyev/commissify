@@ -21,9 +21,9 @@ const SelectFromTeam = ({ pageState }) => {
   	);
 
 	return (
-		<div className="cgart-info-card">
+		<div className="chart-info-card">
 			<h1>Members</h1>
-			<ul>{listMembers}</ul>
+			<ul className="members-list">{listMembers}</ul>
 		</div>
 	);
 }

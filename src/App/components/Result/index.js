@@ -5,11 +5,10 @@ import { getResultBonus } from "../../utils"
 
 const Result = ({ pageState }) => {
 	const { title, ramping, points } = pageState.state
-	console.log(title, ramping, points)
 	const resultBonus = getResultBonus(title, ramping, points)
 	return (
-		<div className="heading-card">
-			<p>Result: {resultBonus}</p>
+		<div className="result-card">
+			<h1>Bonus: {resultBonus}</h1>
 		</div>
 	);
 }

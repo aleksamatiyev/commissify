@@ -2,6 +2,7 @@ import React from "react";
 import { Subscribe } from 'unstated'
 import { get } from 'lodash';
 import { Bar } from 'react-chartjs-2';
+import Icon from '@material-ui/core/Icon';
 import { PageContainer } from '../../containers'
 
 const failBgColor = 'rgba(255, 99, 132, OPACITY)';
@@ -74,9 +75,25 @@ const ChartComponent = ({ pageState }) => {
 		]
 	};
 
+	// temp data to download
+	const downloadIconClick = () => {
+		let csvContent = "data:text/csv;charset=utf-8," 
+		+ bonus.join(",");
+		var encodedUri = encodeURI(csvContent);
+		var link = document.createElement("a");
+		link.setAttribute("href", encodedUri);
+		link.setAttribute("download", "my_data_bonus.csv");
+		document.body.appendChild(link); // Required for FF
+
+		link.click();
+	}
+
 
 	return (
 		<div className="chart">
+			<div className="download-icon" onClick={downloadIconClick}>
+				<i class="material-icons">cloud_download</i>
+			</div>
 			<Bar
 				data={data}
 				width={100}

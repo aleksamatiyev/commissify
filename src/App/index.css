@@ -9,10 +9,116 @@
   color: white;
 }
 
+.App {
+  padding: 0.5em 2em 2em;
+}
+
 .App-link {
   color: #09d3ac;
 }
 
 .selected {
-  background-color: blue;
+  background-color: rgb(227, 228, 229);
+}
+
+.top {
+  display: inline-flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.heading-card {
+  display: inline-flex;
+  flex-direction: column;
+  min-height: 130px;
+  margin: 0;
+  background-color: #f6f7f9;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.25);
+  padding: .5em 1em;
+  border-radius: 3px;
+  color: #757575;
+}
+
+.role-info {
+  display: flex;
+}
+
+.avatar-info {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.role-info p:first-child {
+  margin-right: 3em;
+}
+
+.navigation {
+  float: right;
+  margin-bottom: 1.5em;
+}
+
+.tab-tools {
+  display: inline-flex;
+}
+
+.tab-tools li {
+  list-style-type: none;
+}
+
+.dashboard-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.chart {
+  flex: 1;
+  flex: 1 1 70%;
+  width: 70%;
+}
+
+.download-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-icon:hover {
+  cursor: pointer;
+}
+
+.chart-info-card {
+  flex: 0 1 30%;
+  width: 30%;
+  min-width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  min-height: 130px;
+  margin: 0;
+  margin-left: 2em;
+  background-color: #f6f7f9;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.25);
+  padding: .5em 1em;
+  border-radius: 3px;
+  color: #757575;
+}
+
+.members-list li {
+  padding: 0.4em 0;
+}
+
+.members-list li:hover {
+  cursor: pointer;
+}
+
+.simulating-input-group {
+  display: inline-flex;
+}
+
+.makeStyles-root-184 {
+  margin: 24px;
+}
+
+.result-card {
+  
 }

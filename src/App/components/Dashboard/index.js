@@ -3,6 +3,7 @@ import { Subscribe } from 'unstated'
 import { get } from 'lodash';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import cx from 'classnames';
 import { PageContainer } from '../../containers'
 import { Chart, ChartInfoCard, SelectFromTeam, Simulating } from "../index"
 
@@ -12,7 +13,11 @@ const useStyles = makeStyles(theme => ({
   },
   input: {
     display: 'none',
-  },
+	},
+	
+	selected: {
+		background: "#e3e4e5"
+	}
 }));
 
 const Dashboard = ({ pageState }) => {
@@ -33,11 +38,11 @@ const Dashboard = ({ pageState }) => {
 
 	const ToolTabs = () => {
 		return(
-			<ul>
+			<ul className="tab-tools">
 				<li>
 					<Button 
 						disabled={!isSimulatingMode} 
-						className={classes.button}
+						className={cx(classes.button, {[classes.selected]: !isSimulatingMode })}
 						onClick={toggleSimulatingMode}
 						>
 							Overview
@@ -46,7 +51,7 @@ const Dashboard = ({ pageState }) => {
 				<li>
 					<Button 
 						disabled={isSimulatingMode} 
-						className={classes.button}
+						className={cx(classes.button, {[classes.selected]: isSimulatingMode })}
 						onClick={toggleSimulatingMode}
 					>
 						Simulating
@@ -60,12 +65,12 @@ const Dashboard = ({ pageState }) => {
 		<div className="dashboard">
 			<Heading />
 			{isSimulatingMode ? <Simulating /> :(
-				<>
-				<Chart />
-				{isTeamSelected && <SelectFromTeam />}
-				{/* disable for now for team */}
-				{!isTeamSelected && <ChartInfoCard />}
-				</>
+				<div className="dashboard-content">
+					<Chart />
+					{isTeamSelected && <SelectFromTeam />}
+					{/* disable for now for team */}
+					{!isTeamSelected && <ChartInfoCard />}
+				</div>
 			)}
 			
 		</div>

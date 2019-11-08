@@ -7,10 +7,11 @@ import { RadioSelector, SliderInput, Result } from '../index'
 const Simulating = () => {
 	return (
 		<div className="simulating">
-			<h1>Simulating</h1>
-			<RadioSelector title="title" data={TITLES} />
-			<RadioSelector title="ramping" data={RAMPING} />
-			<SliderInput />
+			<div className="simulating-input-group">
+				<RadioSelector title="title" data={TITLES} />
+				<RadioSelector title="ramping" data={RAMPING} />
+				<SliderInput />
+			</div>
 			<Result />
 		</div>
 	);
